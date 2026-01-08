@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricloader",
+  "version": "${version}",
+  "name": "Fake Fabric Loader",
+  "description": "Creates a fake Fabric Loader for mods that require a version of Fabric Loader you don't want to use.",
+  "authors": ["XDPXI", "FabricMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/fake-fabric-loader/",
+    "issues": "https://github.com/XDPXI/fake-fabric-loader/issues",
+    "sources": "https://github.com/XDPXI/fake-fabric-loader"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/loader/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.loader.main"
+    ]
+  },
+  "depends": {
+    "minecraft": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.modrinth": "https://modrinth.com/mod/fake-fabric-loader/"
+      },
+      "badges": ["library"],
+      "update_checker": true
+    }
+  }
+}
