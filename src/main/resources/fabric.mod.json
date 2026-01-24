@@ -9,9 +9,7 @@
   "license": "All-Rights-Reserved",
   "environment": "server",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.loader.main"
-    ]
+    "main": ["net.fabricmc.loader.main"]
   },
   "depends": {
     "minecraft": "*"
