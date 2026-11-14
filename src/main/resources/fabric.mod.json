@@ -8,9 +8,6 @@
   "contact": {},
   "license": "XDs-MC-License",
   "environment": "*",
-  "entrypoints": {
-    "main": ["net.fabricmc.loader.main"]
-  },
   "depends": {
     "minecraft": "*"
   }
