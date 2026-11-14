@@ -6,7 +6,7 @@
   "description": "",
   "authors": [],
   "contact": {},
-  "license": "XDs-MC-License",
+  "license": "XDs-Open-MC-License-v3",
   "environment": "*",
   "depends": {
     "minecraft": "*"

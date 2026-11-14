@@ -180,13 +180,13 @@ foreach ($version in $loaderVersions)
     # Read gradle.properties
     $lines = Get-Content ".\gradle.properties"
 
-    if ($lines.Count -lt 9)
+    if ($lines.Count -lt 11)
     {
-        throw "gradle.properties does not have at least 9 lines"
+        throw "gradle.properties does not have at least 11 lines"
     }
 
-    # Line 9 (index 8) replacement - use base version only
-    $lines[8] = "mod_version=$version"
+    # Line 11 (index 10) replacement - use base version only
+    $lines[10] = "mod_version=$version"
 
     # Write back file
     Set-Content ".\gradle.properties" $lines -Encoding UTF8
